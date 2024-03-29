@@ -1,16 +1,16 @@
 const Header = () => {
   return (
-    <nav className="flex justify-between max-w-screen-2xl m-auto h-24 bg-slate-400 items-center px-2">
+    <nav className="flex justify-between max-w-screen-2xl m-auto h-16 items-center px-2">
       <div className="logo">
         <img src="/images/brand_logo.png" alt="" />
       </div>
 
       <div className="font-bold text-2xl">
         <ul className="flex list-none gap-10">
-          <li href="#">Menu</li>
-          <li href="#">Location</li>
-          <li href="#">About</li>
-          <li href="#">Contact</li>
+          <li href="#" className="cursor-pointer">Menu</li>
+          <li href="#" className="cursor-pointer">Location</li>
+          <li href="#" className="cursor-pointer">About</li>
+          <li href="#" className="cursor-pointer">Contact</li>
         </ul>
       </div>
 
